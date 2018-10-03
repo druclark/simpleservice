@@ -1,0 +1,7 @@
+# Enable rewrites
+RewriteEngine On
+# The following two lines skip over other HTML/PHP files or resources like CSS, Javascript and image files
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# test.php is our controller file
+RewriteRule ^.*$ service.php [L]
