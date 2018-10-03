@@ -1,0 +1,66 @@
+/* body { */
+/*     background-color: white;    */
+/*     font-family: "EB Garamond", sans-serif; */
+/*     line-height: 1.2; */
+    
+/* } */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #ffffff;   
+    font-family: "EB Garamond", sans-serif;
+/*     line-height: 1.2; */
+ }
+        
+
+hr {
+	background-color: #5cbbed;
+	height: 2px;
+	width: 100%;
+}
+
+
+.header {
+	background-color: #01588b;
+/* 	margin-top: -8px; */
+/* 	margin-left: -8px; */
+/* 	margin-right: -8px; */
+ 	margin-bottom: 15px; 
+	height: 40px;
+	width: 100%;
+	min-width: 100%; 
+
+}
+
+.tool_container
+{
+	padding: 1px;
+	background-color: #e3f1ff;
+}
+
+
+
+/*  
+ custom
+ */
+ 
+
+ .json-table
+ {
+    border-collapse: collapse;
+    width: 95%;
+    background-color: #d7e8ff; 
+    margin-left: 8px;
+  
+ 
+ } 
+ 
+ .json-table th, td
+ {
+    border: 1px solid #afd5f7;
+      padding: 1px;
+ 
+ }
+  
+
